@@ -1,0 +1,128 @@
+/* Basic body styling */  
+body {  
+    font-family: Arial, sans-serif;  /* Sets the font for the body and all text */  
+    margin: 0;  /* Removes default margin */  
+    padding: 0;  /* Removes default padding */  
+    background-color: #f4f4f4;  /* Sets a light gray background color */  
+}  
+
+/* Container to hold sidebar and content */  
+.container {  
+    display: flex;  /* Uses flexbox for layout */  
+}  
+
+/* Sidebar styling */  
+.sidebar {  
+    width: 250px;  /* Fixed width for sidebar */  
+    background-color: #4CAF50;  /* Green background color */  
+    color: white;  /* White text color */  
+    padding: 20px;  /* Padding inside sidebar */  
+}  
+
+/* Styling for the main heading in sidebar */  
+.sidebar h1 {  
+    margin: 0;  /* Removes margin */  
+    font-size: 24px;  /* Sets font size */  
+}  
+
+/* Search input styling in sidebar */  
+.sidebar .search {  
+    width: 100%;  /* Full width of sidebar */  
+    padding: 10px;  /* Padding inside the input */  
+    margin-bottom: 20px;  /* Space below the input */  
+}  
+
+/* Styling for section headings in sidebar */  
+.sidebar h2 {  
+    margin: 20px 0 10px;  /* Margin above and below the heading */  
+}  
+
+/* List styling in sidebar */  
+.sidebar ul {  
+    list-style-type: none;  /* Removes bullet points */  
+    padding: 0;  /* No padding */  
+}  
+
+.sidebar li {  
+    padding: 8px 0;  /* Space above and below each list item */  
+}  
+
+/* Main content area styling */  
+.content {  
+    flex-grow: 1;  /* Allows the content to grow and fill available space */  
+    padding: 20px;  /* Padding around content */  
+}  
+
+/* Styling for the main heading in content area */  
+.content h2 {  
+    margin: 0;  /* Removes margin */  
+}  
+
+/* Task form styling */  
+#task-form {  
+    display: flex;  /* Uses flexbox for layout of form elements */  
+    margin-bottom: 20px;  /* Space below the form */  
+}  
+
+/* Task input box styling */  
+#task-input {  
+    flex-grow: 1;  /* Allows the input box to grow */  
+    padding: 10px;  /* Padding inside input */  
+    margin-right: 10px;  /* Space to the right of input */  
+}  
+
+/* Task list styling */  
+#task-list {  
+    list-style-type: none;  /* Removes bullet points */  
+    padding: 0;  /* No padding */  
+}  
+
+/* Individual task item styling */  
+#task-list li {  
+    display: flex;  /* Uses flexbox for layout */  
+    align-items: center;  /* Vertically centers the items */  
+    padding: 10px;  /* Padding inside task item */  
+    background: white;  /* White background for each task */  
+    margin-bottom: 5px;  /* Space below each task item */  
+    border-radius: 5px;  /* Rounded corners */  
+}  
+
+/* Styling for the task text */  
+.task {  
+    flex-grow: 1;  /* Allows the task text to take up available space */  
+}  
+
+/* Styling for the category label */  
+.category {  
+    color: #777;  /* Light gray color for category */  
+    font-size: 0.8em;  /* Smaller font size */  
+    margin-left: 10px;  /* Space to the left of the category */  
+}  
+
+/* Styling for the date label */  
+.date {  
+    color: #888;  /* Gray color for date */  
+    font-size: 0.8em;  /* Smaller font size */  
+}  
+
+/* Styling for the delete button */  
+.delete-btn {  
+    background-color: #ff4444;  /* Red background color */  
+    color: white;  /* White text color */  
+    border: none;  /* No border */  
+    border-radius: 50%;  /* Circular button */  
+    width: 24px;  /* Fixed width */  
+    height: 24px;  /* Fixed height */  
+    cursor: pointer;  /* Pointer cursor on hover */  
+    margin-left: 10px;  /* Space to the left */  
+    font-size: 16px;  /* Font size for the button character */  
+    display: flex;  /* Uses flexbox for centering the text */  
+    align-items: center;  /* Vertically center the icon */  
+    justify-content: center;  /* Horizontally center the icon */  
+    transition: background-color 0.2s;  /* Transition effect for hover */  
+}  
+
+/* Delete button hover effect */  
+.delete-btn:hover {  
+    background-color: #cc0000;  /* Darker red on hover */  
+}  
