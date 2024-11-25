@@ -20,4 +20,4 @@ A simple and efficient To-Do application designed to help users manage their tas
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/moulabux854/todo-application.git
+   git clone https://github.com/Moulabux854/To-DoApplication.git
