@@ -1,14 +1,14 @@
 # To-Do Application  
 
-A simple and efficient To-Do application designed to help users manage their tasks conveniently. This application allows users to add, edit, delete, and mark tasks as completed, all in a user-friendly interface.  
+A simple and efficient To-Do application designed to help users manage their tasks conveniently. This application allows users to add, delete, and mark tasks as completed, all in a user-friendly interface.  
 
 ## Features  
 
-- **Add Tasks**: Quickly add new tasks to your to-do list.  
-- **Edit Tasks**: Update existing tasks with new details.  
+- **Add Tasks**: Quickly add new tasks to your to-do list.  .  
 - **Delete Tasks**: Remove tasks that are no longer needed.  
-- **Mark as Completed**: Keep track of completed tasks for better organization.  
-- **Filter Tasks**: View tasks based on their status (all, active, completed).  
+- **Mark as Completed**: Keep track of completed tasks for better organization. 
+- **Select category**: Add tasks based on categories (Work, Personal, Urgent).
+- **Filter Tasks**: View tasks based on their categories (ALL, Work, Personal, Urgent ).  
 - **User-Friendly Interface**: Intuitive design for easy navigation.  
 
 ## Technologies Used  
